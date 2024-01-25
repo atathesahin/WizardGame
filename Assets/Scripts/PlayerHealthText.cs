@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PlayerHealthText : MonoBehaviour
 {
-    // Singleton instance
+
     private static PlayerHealthText instance;
     public static PlayerHealthText Instance
     {
@@ -25,7 +25,7 @@ public class PlayerHealthText : MonoBehaviour
         }
     }
 
-    // UI Text elementi
+
     public TextMeshProUGUI playerHealthText;
     
   

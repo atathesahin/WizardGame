@@ -27,7 +27,7 @@ public class Enemy : Entity
     {
         if (_player == null)
         {
-            Debug.LogError("Player reference is not set. Assign the player in the Inspector.");
+           
             return;
         }
 

@@ -53,7 +53,7 @@ public class ScoreManager : MonoBehaviour
             passiveMultiplier += 1;
             _player.maxHealth += 5;
             _player.currentHealth += 5;
-            Debug.Log("Pasif yükseltildi! Yeni Pasif Çarpan: x" + passiveMultiplier);
+        
         }
     }
 
